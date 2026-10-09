@@ -113,3 +113,52 @@
         width: 100vw; /* Full width on mobile */
     }
 }
+
+.sidebar-description {
+    color: #555;
+    line-height: 1.5;
+}
+
+.bank-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.bank-selector label {
+    font-weight: 500;
+    color: #333;
+}
+
+.bank-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: white;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.bank-dropdown:focus {
+    border-color: #007bff;
+}
+
+.custom-message-box {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+.custom-message-title {
+    color: #333;
+}
+
+.custom-message-text {
+    margin: 5px 0 0;
+    color: #555;
+}
